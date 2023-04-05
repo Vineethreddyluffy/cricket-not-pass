@@ -19,8 +19,7 @@ class TeamMatches extends Component {
     const {match} = this.props
     const {params} = match
     const {id} = params
-    const arr = id.split(':')
-    const response = await fetch(`https://apis.ccbp.in/ipl/${arr[1]}`)
+    const response = await fetch(`https://apis.ccbp.in/ipl/${id}`)
     const data = await response.json()
     const recent = await data.recent_matches.map(each => ({
       competingTeam: each.competing_team,
@@ -52,7 +51,7 @@ class TeamMatches extends Component {
       latestMatchDetails: latest,
       recentMatches: recent,
       teamBannerUrl: data.team_banner_url,
-      style: arr[1],
+      style: id,
     }
     this.setState({detailsOf: updatedData, running: false})
   }
@@ -61,7 +60,7 @@ class TeamMatches extends Component {
     const {detailsOf, running} = this.state
     const {teamBannerUrl, latestMatchDetails, recentMatches, style} = detailsOf
     return running ? (
-      <div data-testid="loader">
+      <div testid="loader">
         <Loader type="Oval" color="#ffffff" height={50} width={50} />
       </div>
     ) : (

@@ -6,7 +6,11 @@ const GetCard = props => {
   const classOf = matchStatus === 'Lost' ? 'status' : 'status1'
   return (
     <li className="list">
-      <img src={competingTeamLogo} alt={competingTeam} className="logoOf" />
+      <img
+        src={competingTeamLogo}
+        alt={`competing team ${competingTeam}`}
+        className="logoOf"
+      />
       <p className="name">{competingTeam}</p>
       <p className="result">{result}</p>
       <p className={classOf}>{matchStatus}</p>
