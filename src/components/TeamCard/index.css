@@ -1,0 +1,22 @@
+.img {
+  height: 70px;
+  width: 60px;
+  margin-right: 6px;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffffff33;
+  padding: 10px;
+  margin: 10px;
+  height: 120px;
+}
+.list-para {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  width: 200px;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  width: 190px;
+  text-align: center;
+}
+.result {
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  width: 190px;
+  text-align: center;
+}
+.status {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  color: #e31a1a;
+}
+.status1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  color: #18ed66;
+}
+.logoOf {
+  height: 80px;
+  width: 70px;
+}

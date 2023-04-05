@@ -1,0 +1,52 @@
+.para1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  height: 10px;
+}
+.para2 {
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  height: 10px;
+}
+.para3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  height: 10px;
+}
+.para4 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  height: 10px;
+}
+.team-logo {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.first-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second-side {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e293b;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 700px;
+}
